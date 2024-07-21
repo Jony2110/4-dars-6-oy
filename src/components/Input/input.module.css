@@ -1,0 +1,16 @@
+.zvezda{
+    color: red;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+.box input{
+    width: 702px;
+    height: 56px;
+    border-radius: 15px;
+    border: 1px solid #eaeaea;
+    padding-left:18px ;
+}
