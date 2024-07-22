@@ -17,6 +17,12 @@ function App() {
   const [soni, setSoni] = useState("null");
   const [izoh, setIzoh] = useState("");
   
+  function validate() {
+  
+
+    return true;
+  }
+
 
   function handlePush() {
     setFotoPush(prompt("Rasm linkini kiriting"));
@@ -48,6 +54,12 @@ function App() {
   }
   function handleForm(event) {
     event.preventDefault();
+
+    let isValid = validate();
+    if (!isValid) {
+      return;
+    }
+
     let company = {
       companyName: campany,
       email: email,
