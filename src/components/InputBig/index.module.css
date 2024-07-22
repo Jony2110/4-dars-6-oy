@@ -1,13 +1,13 @@
 .zvezda{
     color: red;
 }
-.box{
+.bigBox{
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 20px;
 }
-.box input{
+.bigBox input{
     width: 702px;
     height: 148px;
     border-radius: 15px;

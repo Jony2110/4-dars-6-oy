@@ -1,13 +1,13 @@
 .zvezda{
     color: red;
 }
-.box{
+.miniBox{
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 20px;
 }
-.box input{
+.miniBox input{
     width: 341px;
     height: 56px;
     border-radius: 15px;
